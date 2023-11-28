@@ -3,7 +3,7 @@
 }
 
 .heading-title {
-   color: rgb(241, 11, 80);
+    color: rgb(241, 11, 80);
 }
 
 .players-container {
@@ -15,11 +15,11 @@
     font-size: 30px;
     background-color: white;
     color: rgb(241, 11, 80);
-  
+
     padding: 5px;
     padding-left: 10px;
     padding-right: 10px;
-   
+
 }
 
 .current-player-text {
@@ -77,21 +77,22 @@
 
 .reset-btn {
     color: rgb(241, 11, 80);
-    background-color:none;
+    background-color: none;
     font-size: 30px;
     border-radius: 10px;
-    border:1px solid rgb(241, 11, 80);
+    border: 1px solid rgb(241, 11, 80);
     padding: 10px 100px;
     display: block;
     margin: 20px auto;
 }
-.reset-btn:hover{
-    color:white;
-    background-color:rgb(241, 11, 80);
+
+.reset-btn:hover {
+    color: white;
+    background-color: rgb(241, 11, 80);
     transition: 0.6s;
     font-size: 30px;
     border-radius: 10px;
-    border:1px solid rgb(241, 11, 80);
+    border: 1px solid rgb(241, 11, 80);
     padding: 10px 100px;
     display: block;
     margin: 20px auto;

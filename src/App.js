@@ -90,7 +90,7 @@ function App() {
 
       <div className='players-container'>
         <span className='player-title'> Player 1 : ⭕</span>
-        <span className='text-center current-player-text'>Current Player: {player === 1 ? "⭕" : "❌"}</span>
+        <span className='text-center current-player-text'>Player Turn: {player === 1 ? "⭕" : "❌"}</span>
         <span className='player-title'> Player 2 : ❌</span>
       </div>
 
