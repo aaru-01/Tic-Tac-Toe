@@ -5,7 +5,11 @@
 .heading-title {
     color: rgb(241, 11, 80);
 }
-
+.img1{
+    height: 90px;
+    margin-top: -10px;
+   /* margin-left: 490px; */
+}
 .players-container {
     display: flex;
     justify-content: space-around;

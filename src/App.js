@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import "./App.css"
 import Confetti from 'react-confetti';
+import img1 from "./tic-tac-toe-removebg-preview (1).png"
 
 function App() {
 
@@ -86,7 +87,8 @@ function App() {
 
   return (
     <div>
-      <h1 className='text-center heading-title'>Tic Tac Toe </h1>
+      {/* <h1 className='text-center heading-title'>Tic Tac Toe </h1> */}
+      <img src = {img1} className='img1'/>
 
       <div className='players-container'>
         <span className='player-title'> Player 1 : ⭕</span>
