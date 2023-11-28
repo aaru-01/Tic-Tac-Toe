@@ -1,0 +1,98 @@
+.text-center {
+    text-align: center;
+}
+
+.heading-title {
+   color: rgb(241, 11, 80);
+}
+
+.players-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.player-title {
+    font-size: 30px;
+    background-color: white;
+    color: rgb(241, 11, 80);
+  
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+   
+}
+
+.current-player-text {
+    font-size: 22px;
+    color: purple;
+    border-bottom: 10px double green;
+}
+
+
+.winner-text {
+    font-size: 15px;
+    /* text-align: center;
+    font-size: 30px;
+    background-color: #fff;
+    width: fit-content;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 200px; */
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.board {
+    display: block;
+    margin: 20px auto;
+    background-color: white;
+    width: fit-content;
+    padding: 15px;
+    border-radius: 5px;
+
+}
+
+.box {
+    background-color: rgb(248, 207, 104);
+    margin: 5px;
+    border: 1px solid gray;
+    width: 105px;
+    height: 105px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+.box:hover {
+    cursor: pointer;
+    transition: 0.5s;
+    box-shadow: 0px 0px 15px 4px gray;
+    border: 1px solid rgb(248, 207, 104);
+    z-index: 100;
+}
+
+.reset-btn {
+    color: rgb(241, 11, 80);
+    background-color:none;
+    font-size: 30px;
+    border-radius: 10px;
+    border:1px solid rgb(241, 11, 80);
+    padding: 10px 100px;
+    display: block;
+    margin: 20px auto;
+}
+.reset-btn:hover{
+    color:white;
+    background-color:rgb(241, 11, 80);
+    transition: 0.6s;
+    font-size: 30px;
+    border-radius: 10px;
+    border:1px solid rgb(241, 11, 80);
+    padding: 10px 100px;
+    display: block;
+    margin: 20px auto;
+}
